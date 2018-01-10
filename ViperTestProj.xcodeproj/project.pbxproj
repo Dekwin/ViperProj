@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		355144B8470BB4291D0DE5E2 /* Pods_ViperTestProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C538594DF6D485D740F11B11 /* Pods_ViperTestProjTests.framework */; };
+		787432C6200640C500B68481 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787432C5200640C500B68481 /* GeneratedMocks.swift */; };
 		78C5D61D200402C700AD4997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5D61C200402C700AD4997 /* AppDelegate.swift */; };
 		78C5D61F200402C700AD4997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5D61E200402C700AD4997 /* ViewController.swift */; };
 		78C5D622200402C700AD4997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C5D620200402C700AD4997 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		78C5D6642004C4D900AD4997 /* CustomUrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5D6632004C4D900AD4997 /* CustomUrlSession.swift */; };
 		78C5D6652004C58500AD4997 /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6662004C58500AD4997 /* Cuckoo.framework */; };
 		78C5D66C2004CA8300AD4997 /* ViperTestProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5D631200402C700AD4997 /* ViperTestProjTests.swift */; };
-		78C5D66E2004CBC800AD4997 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5D66D2004CBC800AD4997 /* GeneratedMocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		118752811350F7559E37C811 /* Pods-ViperTestProjTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperTestProjTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperTestProjTests/Pods-ViperTestProjTests.release.xcconfig"; sourceTree = "<group>"; };
+		787432C5200640C500B68481 /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeneratedMocks.swift; path = ViperTestProjTests/GeneratedMocks.swift; sourceTree = "<group>"; };
 		78C5D619200402C700AD4997 /* ViperTestProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTestProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C5D61C200402C700AD4997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78C5D61E200402C700AD4997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				78C5D66D2004CBC800AD4997 /* GeneratedMocks.swift */,
+				787432C5200640C500B68481 /* GeneratedMocks.swift */,
 				78C5D61B200402C700AD4997 /* ViperTestProj */,
 				78C5D630200402C700AD4997 /* ViperTestProjTests */,
 				78C5D63B200402C700AD4997 /* ViperTestProjUITests */,
@@ -430,7 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C5D66E2004CBC800AD4997 /* GeneratedMocks.swift in Sources */,
+				787432C6200640C500B68481 /* GeneratedMocks.swift in Sources */,
 				78C5D66C2004CA8300AD4997 /* ViperTestProjTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
