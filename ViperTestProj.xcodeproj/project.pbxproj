@@ -693,7 +693,7 @@
 				78C5D640200402C700AD4997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		78C5D641200402C700AD4997 /* Build configuration list for PBXNativeTarget "ViperTestProj" */ = {
 			isa = XCConfigurationList;
@@ -702,7 +702,7 @@
 				78C5D643200402C700AD4997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		78C5D644200402C700AD4997 /* Build configuration list for PBXNativeTarget "ViperTestProjTests" */ = {
 			isa = XCConfigurationList;
@@ -711,7 +711,7 @@
 				78C5D646200402C700AD4997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		78C5D647200402C700AD4997 /* Build configuration list for PBXNativeTarget "ViperTestProjUITests" */ = {
 			isa = XCConfigurationList;
@@ -720,7 +720,7 @@
 				78C5D649200402C700AD4997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
