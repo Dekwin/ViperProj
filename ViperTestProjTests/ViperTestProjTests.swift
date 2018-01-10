@@ -30,7 +30,7 @@ class ViperTestProjTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         expect(7).to(equal(7))
-     expect(7) == 7
+   
     }
     
     func testPerformanceExample() {
