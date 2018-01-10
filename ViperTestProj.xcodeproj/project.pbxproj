@@ -476,6 +476,7 @@
 /* Begin XCBuildConfiguration section */
 		78C5D63F200402C700AD4997 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2AD4E0254D04422C8E8203 /* Pods-ViperTestProjTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -584,6 +585,7 @@
 		};
 		78C5D642200402C700AD4997 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2AD4E0254D04422C8E8203 /* Pods-ViperTestProjTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
