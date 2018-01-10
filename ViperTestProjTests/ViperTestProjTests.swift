@@ -9,7 +9,7 @@
 import XCTest
 import Nimble
 import Quick
-import Cuckoo
+//import Cuckoo
 
 @testable import ViperTestProj
 
@@ -41,40 +41,40 @@ class ViperTestProjTests: XCTestCase {
     }
     
     
-    func testUrl()
-    {
-        let mock = MockCustomUrlSession()
-        let urlStr  = "http://riis.com"
-        let url  = URL(string:urlStr)!
-        stub(mock)
-        { (mock) in
-            when(mock.apiUrl).get.thenReturn(urlStr)
-        }
-        stub(mock)
-        { (mock) in
-            when(mock.url).get.thenReturn(url)
-        }
-        stub(mock)
-        { (mock) in
-            when(mock.session).get.thenReturn(URLSession())
-        }
-        stub(mock) { (stub) in
-            stub.getSourceUrl(apiUrl: urlStr).thenReturn(url)
-        }
-        stub(mock) { mock in
-            
-            mock.callApi(url: equal(to:url, equalWhen: { $0 == $1 })).thenReturn("{'firstName': 'John','lastName': 'Smith'}")
-        }
-        XCTAssertNotNil(verify(mock).session)
-        XCTAssertNotNil(verify(mock).apiUrl)
-        XCTAssertNotNil(verify(mock).url)
-        XCTAssertEqual(mock.apiUrl, urlStr)
-        XCTAssertEqual(mock.url?.absoluteString, urlStr)
-        XCTAssertNotNil(mock.session)
-        XCTAssertEqual(mock.callApi(url: url),"{'firstName': 'John','lastName': 'Smith'}")
-        
-    }
-    
+//    func testUrl()
+//    {
+//        let mock = MockCustomUrlSession()
+//        let urlStr  = "http://riis.com"
+//        let url  = URL(string:urlStr)!
+//        stub(mock)
+//        { (mock) in
+//            when(mock.apiUrl).get.thenReturn(urlStr)
+//        }
+//        stub(mock)
+//        { (mock) in
+//            when(mock.url).get.thenReturn(url)
+//        }
+//        stub(mock)
+//        { (mock) in
+//            when(mock.session).get.thenReturn(URLSession())
+//        }
+//        stub(mock) { (stub) in
+//            stub.getSourceUrl(apiUrl: urlStr).thenReturn(url)
+//        }
+//        stub(mock) { mock in
+//
+//            mock.callApi(url: equal(to:url, equalWhen: { $0 == $1 })).thenReturn("{'firstName': 'John','lastName': 'Smith'}")
+//        }
+//        XCTAssertNotNil(verify(mock).session)
+//        XCTAssertNotNil(verify(mock).apiUrl)
+//        XCTAssertNotNil(verify(mock).url)
+//        XCTAssertEqual(mock.apiUrl, urlStr)
+//        XCTAssertEqual(mock.url?.absoluteString, urlStr)
+//        XCTAssertNotNil(mock.session)
+//        XCTAssertEqual(mock.callApi(url: url),"{'firstName': 'John','lastName': 'Smith'}")
+//
+//    }
+//
    
     
    
