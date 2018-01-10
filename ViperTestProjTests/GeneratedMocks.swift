@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: ViperTestProj/Network/CustomUrlSession.swift at 2018-01-10 15:26:28 +0000
+// MARK: - Mocks generated from file: ViperTestProj/Network/CustomUrlSession.swift at 2018-01-10 16:05:32 +0000
 
 //
 //  CustomUrlSession.swift

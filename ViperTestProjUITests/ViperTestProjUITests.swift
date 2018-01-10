@@ -28,17 +28,17 @@ class ViperTestProjUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        
+    func testSignInSignOut() {
         let app = XCUIApplication()
         
         app.buttons["Sign In"].tap()
-       //XCTAssertTrue(app.buttons["Siwgn Out"].exists)
-        
-        
-        
-                        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertTrue(app.buttons["Sign Out"].exists)
     }
     
+    func testSignInSognOut() {
+        let app = XCUIApplication()
+        
+        app.buttons["Sign In"].tap()
+        XCTAssertTrue(app.buttons["Sogn Out"].exists)
+    }
 }

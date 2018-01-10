@@ -33,6 +33,14 @@ class ViperTestProjTests: XCTestCase {
    
     }
     
+    func testExample722_7() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        expect(722).to(equal(7))
+        
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
